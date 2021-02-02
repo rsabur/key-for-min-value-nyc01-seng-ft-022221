@@ -2,7 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  value_to_compare = 10000
+  value_to_compare = 1000
   key_to_store = nil
   name_hash.each do |key, value|
     if value <= value_to_compare
